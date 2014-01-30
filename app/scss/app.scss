@@ -1,3 +1,7 @@
+$color-main: #3D85C6;
+$color-border: #073763;
+$color-font: #073763;
+$color-active: #9FC5E8;
 
 body {
   margin-top: 80px;
@@ -6,6 +10,10 @@ body {
 [contenteditable="true"]:focus {
   outline: none;
   text-overflow: clip;
+}
+
+#header {
+  background: $color-main;
 }
 
 
