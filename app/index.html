@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="axa.csp">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap-v3/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="styles/font-awesome-v4.0.3/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="styles/app.css"/>
+
+  <script type="text/javascript" src="vendor/jquery/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="vendor/angular-1.2.9/angular.min.js"></script>
+  <script type="text/javascript" src="vendor/angular-1.2.9/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="vendor/angular-1.2.9/angular-animate.min.js"></script>
+  <script type="text/javascript" src="vendor/angular-ui-router/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="vendor/underscore/underscore-1.2.5.min.js"></script>
+  <script type="text/javascript" src="vendor/restangular/restangular.min.js"></script>
+  <script type="text/javascript" src="vendor/bootstrap3/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/menu/appCtrl.js"></script>
+  <script type="text/javascript" src="scripts/menu/menuCtrl.js"></script>
+  <script type="text/javascript" src="scripts/commons/exceptionHandler.js"></script>
+  <script type="text/javascript" src="scripts/commons/httpRequestTracker.js"></script>
+  <script type="text/javascript" src="scripts/notifications/bsNotifications.js"></script>
+  <script type="text/javascript" src="scripts/dashboard/dashboardCtrl.js"></script>
+</head>
+
+<body ng-controller="appCtrl">
+
+<div ng-include="'scripts/menu/menu.tpl.html'"></div>
+<div bs-notifications></div>
+
+<div ui-view class="container"></div>
+
+</body>
+</html>
