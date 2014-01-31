@@ -60,7 +60,11 @@ angular.module('axa.csp', [
             })
             .state('main.body.standard.compute', {
                 url: "compute",
-                templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
+                views: {
+                    'area-main': {
+                        templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
+                    }
+                }
             });
     }]);
 

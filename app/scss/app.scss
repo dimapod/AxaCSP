@@ -7,6 +7,8 @@ $color-background-inactive: #d0d0d0;
 
 $header-height: 140px;
 
+// 768px
+
 @import "compass/reset";
 
 html, body {
@@ -64,6 +66,7 @@ a, a:hover, a:visited, a:link, a:active {
 
     .menu-holder {
       margin: 30px 0 0 20px;
+      min-width: 144px;
     }
 
     .menu-item {
@@ -149,6 +152,25 @@ a, a:hover, a:visited, a:link, a:active {
     background-color: $color-background;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  .standard-layout {
+    .area-main, .area-right {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 10px;
+
+      .area-right1, .area-right2 {
+        width: 49%;
+        float: left;
+        margin-top: 0;
+      }
+      .area-right1 {
+        margin-right: 2%;
+      }
+    }
+  }
 }
 
 #footer {
