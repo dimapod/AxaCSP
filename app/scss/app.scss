@@ -159,8 +159,6 @@ a, a:hover, a:visited, a:link, a:active {
     .area-main, .area-right {
       width: 100%;
       margin-right: 0;
-      margin-top: 10px;
-
       .area-right1, .area-right2 {
         width: 49%;
         float: left;
@@ -169,6 +167,9 @@ a, a:hover, a:visited, a:link, a:active {
       .area-right1 {
         margin-right: 2%;
       }
+    }
+    .area-right {
+      margin-top: 10px;
     }
   }
 }

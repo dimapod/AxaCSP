@@ -216,27 +216,30 @@ a, a:hover, a:visited, a:link, a:active {
   .standard-layout .area-main, .standard-layout .area-right {
     width: 100%;
     margin-right: 0;
-    margin-top: 10px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003162}}
   .standard-layout .area-main .area-right1, .standard-layout .area-main .area-right2, .standard-layout .area-right .area-right1, .standard-layout .area-right .area-right2 {
     width: 49%;
     float: left;
     margin-top: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003167}}
   .standard-layout .area-main .area-right1, .standard-layout .area-right .area-right1 {
     margin-right: 2%;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003171}}
+  .standard-layout .area-right {
+    margin-top: 10px;
+  }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003177}}
 #footer {
   position: fixed;
   bottom: 0;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003184}}
 .cleaner {
   clear: both;
   height: 1px;
