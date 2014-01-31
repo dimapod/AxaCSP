@@ -14,17 +14,37 @@ angular.module('axa.csp', [
 
         $urlRouterProvider.otherwise("/");
         $stateProvider
-            .state('dashboard', {
+            .state('main', {
+                abstract: true,
+                views: {
+                    'header': {
+                        templateUrl: 'scripts/main/header/header.tpl.html'
+                    },
+                    'body': {
+                        templateUrl: 'scripts/main/body/body.tpl.html'
+                    }
+                }
+            })
+            .state('main.body', {
                 url: "/",
-                templateUrl: "scripts/dashboard/dashboard.tpl.html"
+                views: {
+                    'menu': {
+                        templateUrl: 'scripts/main/body/menu/menu.tpl.html'
+                    },
+                    'content': {
+                        templateUrl: 'scripts/main/body/content/content.tpl.html'
+                    }
+                }
+            })
+            .state('main.body.dashboard', {
+                url: "dashboard",
+                templateUrl: 'scripts/main/body/content/dashboard/dashboard.tpl.html'
+            })
+            .state('main.body.compute', {
+                url: "compute",
+                templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
             });
-    }])
-
-//    .run(function ($rootScope, $scope, httpRequestTracker) {
-//        $rootScope.hasPendingRequests = function () {
-//            return httpRequestTracker.hasPendingRequests();
-//        };
-//    });
+    }]);
 
 
 

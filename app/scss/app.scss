@@ -2,9 +2,23 @@ $color-main: #3D85C6;
 $color-border: #073763;
 $color-font: #073763;
 $color-active: #9FC5E8;
+$color-background: #FFFFFF;
+$color-background-inactive: #d0d0d0;
+
+@import "compass/reset";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 body {
-  margin-top: 80px;
+  background-color: $color-background-inactive;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
 }
 
 [contenteditable="true"]:focus {
@@ -12,8 +26,93 @@ body {
   text-overflow: clip;
 }
 
+.container {
+  height: 100%;
+  background-color: $color-background;
+  padding: 0;
+}
+
 #header {
   background: $color-main;
+  height: 10em;
+}
+
+#body {
+
+  #menu, #content {
+    display: inline-block;
+    float: left;
+  }
+
+  #menu {
+    width: 30%;
+
+    .menu-container {
+      margin: 30px 20px 0 20px;
+    }
+
+    .menuItem {
+      height: 55px;
+      text-transform: uppercase;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-weight: 900;
+      border-left: solid 1px adjust-lightness($color-main, 30%);
+      border-bottom: solid 5px $color-main;
+
+      a {
+        display: block;
+        padding: 18px 0;
+        height: 100%;
+        color: $color-font;
+
+        &:hover {
+          background-color: adjust-lightness($color-active, 20%);
+        }
+
+        &.active {
+          background-color: $color-active;
+        }
+      }
+
+      img {
+        width: 22px;
+        margin-top: -4px;
+        margin-left: 15px;
+      }
+
+      span {
+        float: right;
+        padding-right: 10px;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+  }
+
+  #content {
+    width: 70%;
+  }
+
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+}
+
+// Float cleaner
+.cleaner {
+  clear: both;
+  height: 1px;
+  font-size: 1px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
 }
 
 

@@ -16,20 +16,27 @@
   <script type="text/javascript" src="vendor/bootstrap3/bootstrap.min.js"></script>
 
   <script type="text/javascript" src="scripts/app.js"></script>
-  <script type="text/javascript" src="scripts/menu/appCtrl.js"></script>
-  <script type="text/javascript" src="scripts/menu/menuCtrl.js"></script>
+  <script type="text/javascript" src="scripts/main/body/menu/menuCtrl.js"></script>
   <script type="text/javascript" src="scripts/commons/exceptionHandler.js"></script>
   <script type="text/javascript" src="scripts/commons/httpRequestTracker.js"></script>
   <script type="text/javascript" src="scripts/notifications/bsNotifications.js"></script>
-  <script type="text/javascript" src="scripts/dashboard/dashboardCtrl.js"></script>
+
+  <script type="text/javascript" src="scripts/main/mainCtrl.js"></script>
+  <script type="text/javascript" src="scripts/main/header/headerCtrl.js"></script>
+  <script type="text/javascript" src="scripts/main/body/bodyCtrl.js"></script>
+  <script type="text/javascript" src="scripts/main/body/menu/menuCtrl.js"></script>
+  <script type="text/javascript" src="scripts/main/body/content/contentCtrl.js"></script>
 </head>
 
 <body ng-controller="appCtrl">
 
-<div ng-include="'scripts/menu/menu.tpl.html'"></div>
+<!--<div ng-include="'scripts/menu/menu.tpl.html'"></div>-->
 <div bs-notifications></div>
 
-<div ui-view class="container"></div>
+<div class="container">
+  <ui-view ui-view="header"></ui-view>
+  <ui-view ui-view="body"></ui-view>
+</div>
 
 </body>
 </html>
