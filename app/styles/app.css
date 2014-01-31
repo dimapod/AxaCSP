@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,99 +20,116 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
 html {
   line-height: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
 ol, ul {
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
 q, blockquote {
   quotes: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
 a img {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/\.rvm\/gems\/ruby-1\.9\.3-p327\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000312}}
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000318}}
 body {
   background-color: #d0d0d0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000322}}
 a, a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000326}}
 [contenteditable="true"]:focus {
   outline: none;
   text-overflow: clip;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000331}}
 .container {
   height: 100%;
   background-color: white;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000337}}
 #header {
   background: #3d85c6;
-  height: 10em;
+  height: 140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000340}}
+#header img:first-child {
+  height: 174px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000344}}
+#header .axa {
+  height: 134px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000349}}
+#header span {
+  color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000354}}
+#body {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000357}}
 #body #menu, #body #content {
   display: inline-block;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000362}}
 #body #menu {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000365}}
 #body #menu .menu-holder {
   margin: 30px 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000369}}
 #body #menu .menu-item {
   height: 55px;
   text-transform: uppercase;
@@ -121,86 +138,86 @@ a, a:hover, a:visited, a:link, a:active {
   border-left: solid 1px #b3cfe9;
   border-bottom: solid 5px #3d85c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000377}}
 #body #menu .menu-item a {
   display: block;
   padding: 18px 0;
   height: 100%;
   color: #073763;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000383}}
 #body #menu .menu-item a:hover {
-  background-color: #f1f7fc;
+  background-color: #e1edf8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000387}}
 #body #menu .menu-item a.active {
   background-color: #9fc5e8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000392}}
 #body #menu .menu-item img {
   width: 22px;
   margin-top: -4px;
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000398}}
 #body #menu .menu-item span {
   float: right;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003103}}
 #body #menu .menu-item:last-child {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003110}}
 #body #content {
   margin: 20px 1.5% 20px 0;
   width: 73.5%;
   min-height: 500px;
   background-color: #9fc5e8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003116}}
 #body #content .content-holder {
   margin: 10px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003124}}
 .standard-layout .area-main, .standard-layout .area-right {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003128}}
 .standard-layout .area {
   background-color: white;
   padding: 10px;
   border: solid 3px #073763;
   border-radius: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003135}}
 .standard-layout .area-main {
   width: 69%;
   margin-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003139}}
 .standard-layout .area-right {
   width: 30%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003142}}
 .standard-layout .area-right .area-right2 {
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003147}}
 .standard-layout .area-details {
   margin-top: 10px;
   background-color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003154}}
 #footer {
   position: fixed;
   bottom: 0;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003161}}
 .cleaner {
   clear: both;
   height: 1px;

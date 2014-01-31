@@ -5,6 +5,8 @@ $color-active: #9FC5E8;
 $color-background: #FFFFFF;
 $color-background-inactive: #d0d0d0;
 
+$header-height: 140px;
+
 @import "compass/reset";
 
 html, body {
@@ -34,10 +36,23 @@ a, a:hover, a:visited, a:link, a:active {
 
 #header {
   background: $color-main;
-  height: 10em;
+  height: $header-height;
+  img:first-child {
+    height: $header-height + 34;
+  }
+
+  .axa {
+    height: $header-height - 6;
+    float: right;
+  }
+
+  span {
+    color: $color-background;
+  }
 }
 
 #body {
+  margin-top: 10px;
 
   #menu, #content {
     display: inline-block;
@@ -66,7 +81,7 @@ a, a:hover, a:visited, a:link, a:active {
         color: $color-font;
 
         &:hover {
-          background-color: adjust-lightness($color-active, 20%);
+          background-color: adjust-lightness($color-active, 16%);
         }
 
         &.active {

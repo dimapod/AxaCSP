@@ -12,7 +12,7 @@ angular.module('axa.csp', [
     .config(['$stateProvider', '$urlRouterProvider', 'RestangularProvider', function ($stateProvider, $urlRouterProvider, RestangularProvider) {
         RestangularProvider.setBaseUrl('rest/v1.0');
 
-        $urlRouterProvider.otherwise("/");
+        $urlRouterProvider.otherwise("/dashboard");
         $stateProvider
             .state('main', {
                 abstract: true,
