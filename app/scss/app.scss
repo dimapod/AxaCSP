@@ -45,13 +45,13 @@ a, a:hover, a:visited, a:link, a:active {
   }
 
   #menu {
-    width: 30%;
+    width: 25%;
 
-    .menu-container {
-      margin: 30px 20px 0 20px;
+    .menu-holder {
+      margin: 30px 0 0 20px;
     }
 
-    .menuItem {
+    .menu-item {
       height: 55px;
       text-transform: uppercase;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -93,7 +93,15 @@ a, a:hover, a:visited, a:link, a:active {
   }
 
   #content {
-    width: 70%;
+    margin: 20px 1.5% 20px 0;
+    width: 73.5%;
+    min-height: 500px;
+    background-color: $color-active;
+
+    .content-holder {
+      background-color: lavender;
+      margin: 10px 10px;
+    }
   }
 
 }

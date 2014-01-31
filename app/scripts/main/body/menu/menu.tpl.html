@@ -1,7 +1,7 @@
 <div id="menu" ng-controller="menuCtrl">
 
-  <div class="menu-container">
-    <div class="menuItem" ng-repeat="item in menu">
+  <div class="menu-holder">
+    <div class="menu-item" ng-repeat="item in menu">
       <a ui-sref="{{item.state}}" ui-sref-active="active">
         <img src="images/icons/{{item.icon}}.png">
         <span>{{item.label}}</span>
