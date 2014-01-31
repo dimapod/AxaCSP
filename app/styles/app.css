@@ -160,18 +160,47 @@ a, a:hover, a:visited, a:link, a:active {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003101}}
 #body #content .content-holder {
-  background-color: lavender;
   margin: 10px 10px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003109}}
+.standard-layout .area-main, .standard-layout .area-right {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003113}}
+.standard-layout .area {
+  background-color: white;
+  padding: 10px;
+  border: solid 3px #073763;
+  border-radius: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003120}}
+.standard-layout .area-main {
+  width: 69%;
+  margin-right: 1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003124}}
+.standard-layout .area-right {
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003127}}
+.standard-layout .area-right .area-right2 {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003132}}
+.standard-layout .area-details {
+  margin-top: 10px;
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003139}}
 #footer {
   position: fixed;
   bottom: 0;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\00003146}}
 .cleaner {
   clear: both;
   height: 1px;

@@ -27,6 +27,7 @@ angular.module('axa.csp', [
             })
             .state('main.body', {
                 url: "/",
+                abstract: true,
                 views: {
                     'menu': {
                         templateUrl: 'scripts/main/body/menu/menu.tpl.html'
@@ -36,11 +37,28 @@ angular.module('axa.csp', [
                     }
                 }
             })
-            .state('main.body.dashboard', {
-                url: "dashboard",
-                templateUrl: 'scripts/main/body/content/dashboard/dashboard.tpl.html'
+            .state('main.body.standard', {
+                abstract: true,
+                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html'
             })
-            .state('main.body.compute', {
+            .state('main.body.standard.dashboard', {
+                url: "dashboard",
+                views: {
+                    'area-main': {
+                        templateUrl: 'scripts/main/body/content/dashboard/dashboard-main.tpl.html'
+                    },
+                    'area-details': {
+                        templateUrl: 'scripts/main/body/content/dashboard/dashboard-details.tpl.html'
+                    },
+                    'area-right1': {
+                        templateUrl: 'scripts/main/body/content/dashboard/dashboard-right1.tpl.html'
+                    },
+                    'area-right2': {
+                        templateUrl: 'scripts/main/body/content/dashboard/dashboard-right2.tpl.html'
+                    }
+                }
+            })
+            .state('main.body.standard.compute', {
                 url: "compute",
                 templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
             });
