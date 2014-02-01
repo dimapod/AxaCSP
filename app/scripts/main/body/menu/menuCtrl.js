@@ -3,8 +3,8 @@ angular.module('axa.csp').controller('menuCtrl', function ($scope) {
     $scope.menu = [
         {label: "Dashboard", icon: "dashboard", state: ".standard.dashboard"},
         {label: "Compute", icon: "compute", state: ".standard.compute"},
-        {label: "Storage", icon: "storage", state: "storage"},
-        {label: "Network", icon: "network", state: "network"},
+        {label: "Storage", icon: "storage", state: ".standard.storage"},
+        {label: "Network", icon: "network", state: ".standard.network"},
         {label: "Security", icon: "security", state: "security"},
         {label: "Users", icon: "users", state: "users"},
         {label: "Services", icon: "services", state: "services"},

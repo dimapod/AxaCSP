@@ -65,6 +65,14 @@ angular.module('axa.csp', [
                         templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
                     }
                 }
+            })
+            .state('main.body.standard.storage', {
+                url: "storage",
+                views: {
+                    'area-main': {
+                        templateUrl: 'scripts/main/body/content/storage/storage.tpl.html'
+                    }
+                }
             });
     }]);
 
