@@ -1,11 +1,10 @@
-<div ng-controller="computeCtrl">
+<div>
   <p>INTEGRATED REAL-TIME INFORMATION ON COMPUTE INSTANCES PROVIDED BY THE CLOUD MANAGEMENT PLATFORM</p>
 
   <div class="systems">
     <ul>
       <li ng-repeat="system in systems">
-        <!--<div>{{system.name}}</div>-->
-        <a href=""><img src="images/systems/{{system.img}}.png"/></a>
+        <a href="" ng-click="select(system)"><img src="images/systems/{{system.img}}.png"/></a>
       </li>
     </ul>
   </div>

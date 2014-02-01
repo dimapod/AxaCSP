@@ -37,11 +37,11 @@ angular.module('axa.csp', [
                     }
                 }
             })
-            .state('main.body.standard', {
+            .state('main.body.dashboard', {
                 abstract: true,
                 templateUrl: 'scripts/main/body/content/standard-layout.tpl.html'
             })
-            .state('main.body.standard.dashboard', {
+            .state('main.body.dashboard.layout', {
                 url: "dashboard",
                 views: {
                     'area-main': {
@@ -58,15 +58,27 @@ angular.module('axa.csp', [
                     }
                 }
             })
-            .state('main.body.standard.compute', {
+            .state('main.body.compute', {
+                abstract: true,
+                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html',
+                controller: 'computeCtrl'
+            })
+            .state('main.body.compute.layout', {
                 url: "compute",
                 views: {
                     'area-main': {
-                        templateUrl: 'scripts/main/body/content/compute/compute.tpl.html'
+                        templateUrl: 'scripts/main/body/content/compute/compute-main.tpl.html'
+                    },
+                    'area-details': {
+                        templateUrl: 'scripts/main/body/content/compute/compute-details.tpl.html'
                     }
                 }
             })
-            .state('main.body.standard.storage', {
+            .state('main.body.storage', {
+                abstract: true,
+                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html'
+            })
+            .state('main.body.storage.layout', {
                 url: "storage",
                 views: {
                     'area-main': {
