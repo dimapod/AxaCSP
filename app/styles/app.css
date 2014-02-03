@@ -63,75 +63,95 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000312}}
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000318}}
 body {
   background-color: #d0d0d0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000323}}
 a, a:hover, a:visited, a:link, a:active {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000327}}
 [contenteditable="true"]:focus {
   outline: none;
   text-overflow: clip;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000332}}
 .container {
   height: 100%;
   background-color: white;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000338}}
 #header {
+  position: relative;
   background: #3d85c6;
   height: 140px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000343}}
-#header img:first-child {
+#header .icon {
   position: absolute;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000347}}
+#header .icon:first-child {
   height: 174px;
+  left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000348}}
-#header .axa {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000351}}
+#header .icon.axa {
   height: 134px;
-  float: right;
+  right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000353}}
-#header span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000357}}
+#header .title {
   color: white;
+  width: 278px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 1.55em;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000366}}
+#header .csp-tabs {
+  position: absolute;
+  bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000369}}
+#header .csp-tabs li {
+  display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000375}}
 #body {
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000378}}
 #body #menu, #body #content {
   display: inline-block;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000383}}
 #body #menu {
   width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000386}}
 #body #menu .menu-holder {
   margin: 30px 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000390}}
 #body #menu .menu-item {
   height: 55px;
   text-transform: uppercase;
@@ -139,123 +159,123 @@ a, a:hover, a:visited, a:link, a:active {
   border-left: solid 1px #b3cfe9;
   border-bottom: solid 5px #3d85c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000397}}
 #body #menu .menu-item a {
   display: block;
   padding: 18px 0;
   height: 100%;
   color: #073763;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003103}}
 #body #menu .menu-item a:hover {
   background-color: #e1edf8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003107}}
 #body #menu .menu-item a.active {
   background-color: #9fc5e8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003112}}
 #body #menu .menu-item img {
   width: 22px;
   margin-top: -4px;
   margin-left: 15px;
 }
 @media screen and (max-width: 655px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003112}}
   #body #menu .menu-item img {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003121}}
 #body #menu .menu-item span {
   float: right;
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003126}}
 #body #menu .menu-item:last-child {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003133}}
 #body #content {
   margin: 20px 1.5% 20px 0;
   width: 73.5%;
   min-height: 500px;
   background-color: #9fc5e8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003139}}
 #body #content .content-holder {
   margin: 10px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003146}}
 .standard-layout .area-main, .standard-layout .area-right {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003150}}
 .standard-layout .area {
   background-color: white;
   padding: 10px;
   border: solid 3px #073763;
   border-radius: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003157}}
 .standard-layout .area-main {
   width: 69%;
   margin-right: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003161}}
 .standard-layout .area-right {
   width: 30%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003163}}
 .standard-layout .area-right .area-right2 {
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003168}}
 .standard-layout .area-details {
   margin-top: 10px;
   background-color: white;
 }
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003174}}
   .standard-layout .area-main, .standard-layout .area-right {
     width: 100%;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003177}}
   .standard-layout .area-main .area-right1, .standard-layout .area-main .area-right2, .standard-layout .area-right .area-right1, .standard-layout .area-right .area-right2 {
     width: 49%;
     float: left;
     margin-top: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003182}}
   .standard-layout .area-main .area-right1, .standard-layout .area-right .area-right1 {
     margin-right: 2%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003186}}
   .standard-layout .area-right {
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003193}}
   .standard-layout .area-main .area-right1, .standard-layout .area-main .area-right2, .standard-layout .area-right .area-right1, .standard-layout .area-right .area-right2 {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003196}}
   .standard-layout .area-main .area-right2, .standard-layout .area-right .area-right2 {
     margin-top: 10px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003203}}
 #footer {
   position: fixed;
   bottom: 0;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003210}}
 .cleaner {
   clear: both;
   height: 1px;
@@ -267,20 +287,20 @@ a, a:hover, a:visited, a:link, a:active {
 }
 
 /** Spaces **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003223}}
 .systems {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003225}}
 .systems img {
   margin: 10px 30%;
   width: 40%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003229}}
 .systems a {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\00003231}}
 .systems a:hover {
   background-color: #e1edf8;
 }

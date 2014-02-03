@@ -36,20 +36,39 @@ a, a:hover, a:visited, a:link, a:active {
 }
 
 #header {
+  position: relative;
   background: $color-main;
   height: $header-height;
-  img:first-child {
+
+   .icon {
     position: absolute;
-    height: $header-height + 34;
+    top: 0;
+
+    &:first-child {
+      height: $header-height + 34;
+      left: 0;
+    }
+    &.axa {
+      height: $header-height - 6;
+      right: 0;
+    }
   }
 
-  .axa {
-    height: $header-height - 6;
-    float: right;
-  }
-
-  span {
+  .title {
     color: $color-background;
+    width: 278px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 1.55em;
+    font-weight: 600;
+  }
+
+  .csp-tabs {
+    position: absolute;
+    bottom: 0;
+    li {
+      display: inline-block;
+    }
   }
 }
 
