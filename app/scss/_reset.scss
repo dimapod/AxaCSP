@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: $color-background-inactive;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
