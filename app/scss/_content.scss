@@ -7,6 +7,19 @@
   .content-holder {
     margin: 10px 10px;
   }
+
+  @media screen and (max-width: 520px) {
+    width: 100%;
+    margin: 20px 0;
+    .area-main, .area-right {
+      .area-right1, .area-right2 {
+        width: 100%;
+      }
+      .area-right2 {
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
 .standard-layout {
@@ -28,12 +41,6 @@
     p {
       margin-top: 10px;
     }
-//    ul {
-//      list-style-type:square;
-//      li {
-//        margin-left: 20px;
-//      }
-//    }
   }
   .area-right {
     width: 40%;
@@ -47,7 +54,7 @@
     background-color: $color-background;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
     .area-main, .area-right {
       width: 100%;
       margin-right: 0;
@@ -65,16 +72,6 @@
     }
   }
 
-  @media screen and (max-width: 500px) {
-    .area-main, .area-right {
-      .area-right1, .area-right2 {
-        width: 100%;
-      }
-      .area-right2 {
-        margin-top: 10px;
-      }
-    }
-  }
 }
 
 

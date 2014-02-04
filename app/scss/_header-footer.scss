@@ -54,7 +54,18 @@
         }
       }
     }
+  }
 
+  @media screen and (max-width: 680px) {
+    .icon {
+      &:first-child {
+        display: none;
+      }
+      &.axa {
+        display: none;
+        height: 77;
+      }
+    }
   }
 }
 

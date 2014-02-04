@@ -45,4 +45,19 @@
       border-bottom: none;
     }
   }
+
+  @media screen and (max-width: 520px) {
+    width: 100%;
+    .menu-holder {
+      margin: 0;
+    }
+
+    .menu-item {
+      width: 33%;
+      display: inline-block;
+      &:last-child {
+        border-bottom: solid 5px $color-main;
+      }
+    }
+  }
 }
