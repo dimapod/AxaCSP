@@ -1,8 +1,15 @@
-<div>
-  <span></span>
-  <form ng-submit="submit()">
-    <input ng-model="user.username" type="text" name="user" placeholder="Username" />
-    <input ng-model="user.password" type="password" name="pass" placeholder="Password" />
-    <input type="submit" value="Login" />
-  </form>
+<div id="login">
+  <img class="icon axa" src="images/axa-login.png">
+
+  <div class="login-content">
+    <h2>SIGN IN</h2>
+
+    <form ng-submit="submit()" role="form">
+      <input ng-model="user.username" type="text" name="user" class="form-control" placeholder="Username"/>
+      <input ng-model="user.password" type="password" name="pass" class="form-control" placeholder="Password"/>
+      <div>{{message}}</div>
+      <input type="submit" class="btn btn-primary" value="Login"/>
+    </form>
+
+  </div>
 </div>

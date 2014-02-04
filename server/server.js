@@ -24,7 +24,7 @@ app.use(function(err, req, res, next){
 app.post('/authenticate', function (req, res) {
     //TODO validate req.body.username and req.body.password
     //if is invalid, return 401
-    if (!(req.body.username === 'john.doe' && req.body.password === 'foobar')) {
+    if (!(req.body.username === 'axa.csp' && req.body.password === 'axa')) {
         res.send(401, 'Wrong user or password');
         return;
     }
