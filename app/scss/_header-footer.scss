@@ -33,31 +33,28 @@
     width: 100%;
     text-transform: uppercase;
 
-    ul {
-      li {
+    li {
+      display: inline-block;
+      a {
+        padding: 10px;
+        width: 120px;
         display: inline-block;
-        a {
-          padding: 10px;
-          width: 120px;
-          display: inline-block;
-          color: $color-font-inactive;
-          &:hover {
-            background-color: adjust-lightness($color-active, 16%);
-            color: $color-font;
-          }
+        color: $color-font-inactive;
+        &:hover {
+          background-color: adjust-lightness($color-active, 16%);
+          color: $color-font;
+        }
 
-          &.active {
-            background-color: $color-background;
-            color: $color-font;
-            font-weight: 900;
-          }
+        &.active {
+          background-color: $color-background;
+          color: $color-font;
+          font-weight: 900;
         }
       }
     }
 
   }
 }
-
 
 #footer {
   position: fixed;
