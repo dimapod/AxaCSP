@@ -10,4 +10,9 @@ angular.module('axa.csp').controller('appCtrl', function ($rootScope, $scope, ht
     });
 
     $scope.$state = $state;
+
+    // transform state to classes (ie: main.body.compute.layout -> main body compute layout)
+    $scope.stateToClass = function() {
+        return $state.current.name.replace(/\./g, " ")
+    }
 });

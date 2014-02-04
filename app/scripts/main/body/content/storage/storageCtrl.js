@@ -16,17 +16,15 @@ angular.module('axa.csp').controller('storageCtrl', function ($scope, projectSer
         },
         series: [
             { data: [
-                ['Firefox', 45.0],
-                ['IE', 26.8],
+                ['Free', 45.0],
+                ['Wired', 26.8],
                 {
-                    name: 'Chrome',
+                    name: 'Active',
                     y: 12.8,
                     sliced: true,
                     selected: true
                 },
-                ['Safari', 8.5],
-                ['Opera', 6.2],
-                ['Others', 0.7]
+                ['Inactive', 8.5]
             ]
             }
         ],
