@@ -19,6 +19,10 @@
   <script type="text/javascript" src="vendor/highcharts-v3.0/highcharts-ng.js"></script>
 
   <script type="text/javascript" src="scripts/app.js"></script>
+
+  <script type="text/javascript" src="scripts/authenticate/authCtrl.js"></script>
+  <script type="text/javascript" src="scripts/authenticate/authInterceptor.js"></script>
+
   <script type="text/javascript" src="scripts/main/body/menu/menuCtrl.js"></script>
   <script type="text/javascript" src="scripts/commons/exceptionHandler.js"></script>
   <script type="text/javascript" src="scripts/commons/httpRequestTracker.js"></script>
@@ -27,7 +31,6 @@
 
   <script type="text/javascript" src="scripts/main/mainCtrl.js"></script>
   <script type="text/javascript" src="scripts/main/header/headerCtrl.js"></script>
-  <script type="text/javascript" src="scripts/main/body/bodyCtrl.js"></script>
   <script type="text/javascript" src="scripts/main/body/menu/menuCtrl.js"></script>
   <script type="text/javascript" src="scripts/main/body/content/contentCtrl.js"></script>
 
@@ -38,12 +41,11 @@
 
 <body ng-controller="appCtrl">
 
-<!--<div ng-include="'scripts/menu/menu.tpl.html'"></div>-->
 <div bs-notifications></div>
 
 <div class="container">
-  <ui-view ui-view="header"></ui-view>
-  <ui-view ui-view="body"></ui-view>
+  <div ui-view="header"></div>
+  <div ui-view="body"></div>
 </div>
 
 </body>

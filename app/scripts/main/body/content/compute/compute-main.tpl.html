@@ -4,10 +4,12 @@
   <div class="systems">
     <ul>
       <li ng-repeat="system in systems">
-        <a href="" ng-click="select(system)"><img src="images/systems/{{system.img}}.png"/></a>
+        <a href="" ng-click="select(system)"><img ng-src="images/systems/{{system.img}}.png"/></a>
       </li>
     </ul>
   </div>
+
+  <a class="btn btn-primary" ng-click="refresh()">Refresh from server</a>
 </div>
 
 

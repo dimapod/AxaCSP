@@ -3,7 +3,9 @@
     "description": "Axa CSP Proto",
     "version": "0.0.1",
     "dependencies": {
-        "express": "3.1.x"
+        "express": "3.1.x",
+        "express-jwt": "0.1.x",
+        "jsonwebtoken": "~0.1.0"
     },
     "devDependencies": {
         "grunt": "~0.4.2",

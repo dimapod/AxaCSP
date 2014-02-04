@@ -10,11 +10,22 @@ angular.module('axa.csp', [
         'httpRequestTracker'
     ])
 
-    .config(['$stateProvider', '$urlRouterProvider', 'RestangularProvider', function ($stateProvider, $urlRouterProvider, RestangularProvider) {
+    .config(function ($stateProvider, $urlRouterProvider, RestangularProvider, $httpProvider) {
         RestangularProvider.setBaseUrl('rest/v1.0');
+
+        $httpProvider.interceptors.push('authInterceptor');
 
         $urlRouterProvider.otherwise("/phoenix/dashboard");
         $stateProvider
+            .state('auth', {
+                url: "/auth",
+                views: {
+                    'body': {
+                        templateUrl: 'scripts/authenticate/auth.tpl.html',
+                        controller: 'authCtrl'
+                    }
+                }
+            })
             .state('main', {
                 abstract: true,
                 views: {
@@ -95,7 +106,7 @@ angular.module('axa.csp', [
                     }
                 }
             });
-    }]);
+    });
 
 
 
