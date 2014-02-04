@@ -31,7 +31,7 @@
       width: 22px;
       margin-top: -4px;
       margin-left: 15px;
-      @media screen and (max-width: 655px) {
+      @media screen and (max-width: $responsive-threshold-mobile-landscape) {
         display: none;
       }
     }
@@ -46,7 +46,7 @@
     }
   }
 
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: $responsive-threshold-mobile-portrait) {
     width: 100%;
     .menu-holder {
       margin: 0;

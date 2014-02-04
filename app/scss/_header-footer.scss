@@ -56,7 +56,7 @@
     }
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: $responsive-threshold-mobile-landscape) {
     .icon {
       &:first-child {
         display: none;
