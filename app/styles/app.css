@@ -99,25 +99,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: absolute;
   bottom: 0;
   width: 100%;
+  text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000337}}
 #header .csp-tabs ul li {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000339}}
 #header .csp-tabs ul li a {
   padding: 10px;
   width: 120px;
   display: inline-block;
   color: #d0d0d0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000344}}
 #header .csp-tabs ul li a:hover {
   background-color: #e1edf8;
   color: #073763;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000349}}
+#header .csp-tabs ul li a.active {
+  background-color: white;
+  color: #073763;
+  font-weight: 900;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000362}}
 #footer {
   position: fixed;
   bottom: 0;

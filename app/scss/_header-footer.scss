@@ -31,6 +31,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    text-transform: uppercase;
+
     ul {
       li {
         display: inline-block;
@@ -42,6 +44,12 @@
           &:hover {
             background-color: adjust-lightness($color-active, 16%);
             color: $color-font;
+          }
+
+          &.active {
+            background-color: $color-background;
+            color: $color-font;
+            font-weight: 900;
           }
         }
       }
