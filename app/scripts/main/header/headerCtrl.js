@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('axa.csp').controller('headerCtrl', function ($scope, $stateParams) {
+angular.module('axa.csp').controller('headerCtrl', function ($scope, $stateParams, projectService) {
 
     $scope.params = $stateParams;
     $scope.tabs = {
@@ -16,7 +16,10 @@ angular.module('axa.csp').controller('headerCtrl', function ($scope, $stateParam
             tab.active = false;
         });
         $scope.tabs[projectId].active = true;
-    }, true);
+
+        // init project service (fetch data, etc.)
+        projectService.fetch(projectId);
+    });
 
 
 });

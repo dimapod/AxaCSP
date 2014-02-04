@@ -1,0 +1,19 @@
+/** Spaces **/
+.chart {
+  height: 150px;
+}
+
+// compute
+.systems {
+  margin-top: 20px;
+  img {
+    margin: 10px 30%;
+    width: 40%;
+  }
+  a {
+    display: block;
+    &:hover {
+      background-color: adjust-lightness($color-active, 16%);
+    }
+  }
+}

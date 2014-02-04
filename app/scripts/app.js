@@ -4,6 +4,7 @@ angular.module('axa.csp', [
         'ui.router',
         'ngAnimate',
         'restangular',
+        'highcharts-ng',
         'notifications',
         'exceptionHandler',
         'httpRequestTracker'
@@ -39,7 +40,8 @@ angular.module('axa.csp', [
             })
             .state('main.body.dashboard', {
                 abstract: true,
-                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html'
+                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html',
+                controller: 'dashboardCtrl'
             })
             .state('main.body.dashboard.layout', {
                 url: "dashboard",
@@ -76,13 +78,20 @@ angular.module('axa.csp', [
             })
             .state('main.body.storage', {
                 abstract: true,
-                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html'
+                templateUrl: 'scripts/main/body/content/standard-layout.tpl.html',
+                controller: 'storageCtrl'
             })
             .state('main.body.storage.layout', {
                 url: "storage",
                 views: {
                     'area-main': {
-                        templateUrl: 'scripts/main/body/content/storage/storage.tpl.html'
+                        templateUrl: 'scripts/main/body/content/storage/storage-main.tpl.html'
+                    },
+                    'area-right1': {
+                        templateUrl: 'scripts/main/body/content/storage/storage-right1.tpl.html'
+                    },
+                    'area-right2': {
+                        templateUrl: 'scripts/main/body/content/storage/storage-right2.tpl.html'
                     }
                 }
             });
