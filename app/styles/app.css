@@ -101,34 +101,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 100%;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000337}}
-#header .csp-tabs ul li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000336}}
+#header .csp-tabs li {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000339}}
-#header .csp-tabs ul li a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000338}}
+#header .csp-tabs li a {
   padding: 10px;
   width: 120px;
   display: inline-block;
   color: #d0d0d0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000344}}
-#header .csp-tabs ul li a:hover {
-  background-color: #e1edf8;
-  color: #073763;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000349}}
-#header .csp-tabs ul li a.active {
-  background-color: white;
+#header .csp-tabs li a:hover, #header .csp-tabs li a.active {
   color: #073763;
   font-weight: 900;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000349}}
+#header .csp-tabs li a:hover {
+  background-color: #e1edf8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000352}}
+#header .csp-tabs li a.active {
+  background-color: white;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_header-footer\.scss}line{font-family:\0000361}}
 #footer {
   position: fixed;
   bottom: 0;
   display: inline-block;
+  background: white;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/_reset\.scss}line{font-family:\000031}}

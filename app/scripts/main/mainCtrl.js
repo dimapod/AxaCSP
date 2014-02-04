@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('axa.csp').controller('appCtrl', function ($rootScope, $scope, httpRequestTracker, notifications) {
+angular.module('axa.csp').controller('appCtrl', function ($rootScope, $scope, httpRequestTracker, notifications, $state) {
     $rootScope.hasPendingRequests = function () {
         return httpRequestTracker.hasPendingRequests();
     };
@@ -8,4 +8,6 @@ angular.module('axa.csp').controller('appCtrl', function ($rootScope, $scope, ht
     $scope.$on('$routeChangeError', function(event, current, previous, rejection){
         notifications.pushForCurrentRoute('Route change error', 'error');
     });
+
+    $scope.$state = $state;
 });

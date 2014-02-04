@@ -3,7 +3,7 @@
   <div class="menu-holder">
     <div class="menu-item" ng-repeat="item in menu">
       <a ui-sref="{{item.state}}" ui-sref-active="active">
-        <img src="images/icons/{{item.icon}}.png">
+        <img ng-src="images/icons/{{item.icon}}.png">
         <span>{{item.label}}</span>
       </a>
     </div>

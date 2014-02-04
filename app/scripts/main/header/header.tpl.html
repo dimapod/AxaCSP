@@ -5,9 +5,7 @@
 
   <div class="csp-tabs">
     <ul>
-      <li><a class="active" href>Phoenix</a></li>
-      <li><a href>Project2</a></li>
-      <li><a href>Project3</a></li>
+      <li ng-repeat="tab in tabs"><a ui-sref="{{tab.state}}" ng-class="{'active': tab.active}">{{tab.label}}</a></li>
     </ul>
   </div>
 
@@ -15,5 +13,5 @@
 </div>
 
 <div id="footer">
-  footer
+  footer <!--{{$state}}-->
 </div>

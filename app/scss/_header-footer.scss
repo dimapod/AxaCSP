@@ -40,15 +40,17 @@
         width: 120px;
         display: inline-block;
         color: $color-font-inactive;
-        &:hover {
-          background-color: adjust-lightness($color-active, 16%);
-          color: $color-font;
-        }
 
-        &.active {
-          background-color: $color-background;
+        &:hover, &.active {
           color: $color-font;
           font-weight: 900;
+        }
+
+        &:hover {
+          background-color: adjust-lightness($color-active, 16%);
+        }
+        &.active {
+          background-color: $color-background;
         }
       }
     }
@@ -60,4 +62,5 @@
   position: fixed;
   bottom: 0;
   display: inline-block;
+  background: $color-background;
 }
