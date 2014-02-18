@@ -26,7 +26,7 @@
   }
 }
 
-.standard-layout {
+.standard-layout, .network-layout {
   .area-main, .area-right {
     float: left;
   }
@@ -56,6 +56,8 @@
   .area-details {
     margin-top: 10px;
     background-color: $color-background;
+    float: left;
+    width: 100%;
   }
 
   @media screen and (max-width: $responsive-threshold-tablet) {
@@ -76,6 +78,13 @@
     }
   }
 
+}
+
+.network-layout {
+  .area-main {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 

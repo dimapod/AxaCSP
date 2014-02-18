@@ -13,4 +13,26 @@ module.exports = function (app) {
         res.send(rez, 200);
     });
 
-}
+    app.get(URL_PREFIX + '/network/data', function (req, res) {
+        var rez = [
+            { data: getRandomSerie(10, -15, 20) }
+        ];
+        console.log('/rest/v1.0/network/data', rez);
+        res.send(rez, 200);
+    });
+
+
+    function getRandomInt (min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function getRandomSerie (qt, min, max) {
+        var rez = [];
+        for (var i=0; i < qt; i++) {
+            rez.push(getRandomInt(min, max));
+        }
+        return rez;
+    }
+
+
+};

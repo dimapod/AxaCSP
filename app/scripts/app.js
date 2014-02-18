@@ -105,6 +105,22 @@ angular.module('axa.csp', [
                         templateUrl: 'scripts/main/body/content/storage/storage-right2.tpl.html'
                     }
                 }
+            })
+            .state('main.body.network', {
+                abstract: true,
+                templateUrl: 'scripts/main/body/content/network/network-layout.tpl.html',
+                controller: 'networkCtrl'
+            })
+            .state('main.body.network.layout', {
+                url: "network",
+                views: {
+                    'area-main': {
+                        templateUrl: 'scripts/main/body/content/network/network-main.tpl.html'
+                    },
+                    'area-details': {
+                        templateUrl: 'scripts/main/body/content/network/network-details.tpl.html'
+                    }
+                }
             });
     });
 

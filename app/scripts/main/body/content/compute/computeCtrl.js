@@ -9,7 +9,7 @@ angular.module('axa.csp').controller('computeCtrl', function ($scope, Restangula
         Restangular.all('compute/systems').getList().then(function (data) {
             $scope.systems = data;
         });
-    }
+    };
 
     $scope.refresh();
 
