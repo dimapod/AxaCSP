@@ -209,13 +209,10 @@ a, a:hover, a:visited, a:link, a:active {
 .container {
   background-color: white;
   padding: 0;
-  position: relative;
-  height: 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyachiy\/Development\/xke\/ANGULAR\/AxaP\/app\/scss\/app\.scss}line{font-family:\0000327}}
 .notification-container {
-  position: absolute;
   z-index: 1000;
   width: 100%;
 }

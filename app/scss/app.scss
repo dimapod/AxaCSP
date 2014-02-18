@@ -20,12 +20,12 @@ $responsive-threshold-tablet: 991px;
 .container {
   background-color: $color-background;
   padding: 0;
-  position: relative;
-  height: 100%;
+//  position: relative;
+//  height: 100%;
 }
 
 .notification-container {
-  position: absolute;
+  //position: absolute;
   z-index: 1000;
   width: 100%;
   .alert {
