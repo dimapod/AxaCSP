@@ -40,9 +40,15 @@ angular.module('axa.csp').controller('networkCtrl', function ($scope, projectSer
 
     $scope.refresh();
 
-
     function getRandomInt (min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
+
+    // Details
+    $scope.networkDetails = [
+        {id:1, firstName:"Mark", lastName:"Otto", userName:"@mdo"},
+        {id:2, firstName:"Jacob", lastName:"Thornton", userName:"@fat"},
+        {id:3, firstName:"Larry", lastName:"Bird", userName:"@twitter"}
+    ];
 
 });

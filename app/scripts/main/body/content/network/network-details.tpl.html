@@ -1,5 +1,23 @@
 <div>
   <div>Network details</div>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in networkDetails">
+      <td ng-bind="item.id"></td>
+      <td ng-bind="item.firstName"></td>
+      <td ng-bind="item.lastName"></td>
+      <td ng-bind="item.userName"></td>
+    </tr>
+    </tbody>
+  </table>
 </div>
 
 

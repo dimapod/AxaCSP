@@ -20,6 +20,16 @@ $responsive-threshold-tablet: 991px;
 .container {
   background-color: $color-background;
   padding: 0;
+  position: relative;
+}
+
+.notification-container {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  .alert {
+    margin: 5px;
+  }
 }
 
 #body {

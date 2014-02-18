@@ -16,9 +16,14 @@ angular.module('notifications')
 
             controller: function($scope) {
                 $scope.notifications = notifications;
+
                 $scope.removeNotification = function (notification) {
                     notifications.remove(notification);
                 };
+
+                $scope.fixNotification = function(notification) {
+                    notification.fixed = true;
+                }
             }
         };
     });
@@ -26,8 +31,9 @@ angular.module('notifications')
 angular.module("template/notifications/notifications.tpl.html", []).run(["$templateCache", function($templateCache) {
     $templateCache.put("template/notifications/notifications.tpl.html",
         "<div class='notification-container' ng-show='notifications.getCurrent().length'>" +
-            "<div ng-class=\"['alert', 'alert-'+notification.type]\" ng-repeat=\"notification in notifications.getCurrent()\">" +
-                "<button class='close' ng-click='removeNotification(notification)'>x</button>" +
+            "<div ng-class=\"['alert', 'alert-dismissable', 'alert-'+notification.type]\" ng-click=\"fixNotification(notification)\" ng-repeat=\"notification in notifications.getCurrent()\">" +
+                "<i class=\"fa fa-thumb-tack \" ng-show=\"notification.fixed\"></i> " +
+                "<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\" ng-click='removeNotification(notification)'>&times;</button>" +
                 "{{notification.message}}" +
             "</div>" +
         "</div>"
@@ -51,7 +57,7 @@ angular.module('notifications')
         notificationsArray.push(notificationObj);
 
         $timeout(function() {
-            notificationsService.remove(notificationObj);
+            notificationsService.remove(notificationObj, true);
         }, 8000);
 
         return notificationObj;
@@ -80,7 +86,9 @@ angular.module('notifications')
         return addNotification(notifications.ROUTE_NEXT, { message: message, type: type });
     };
 
-    notificationsService.remove = function (notification) {
+    notificationsService.remove = function (notification, auto) {
+        if (auto && notification.fixed) return;
+
         angular.forEach(notifications, function (notificationsByType) {
             var idx = notificationsByType.indexOf(notification);
             if (idx > -1) {

@@ -209,14 +209,26 @@ a, a:hover, a:visited, a:link, a:active {
 .container {
   background-color: white;
   padding: 0;
+  position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000326}}
+.notification-container {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000330}}
+.notification-container .alert {
+  margin: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000335}}
 #body {
   margin-top: 10px;
   /** Spaces **/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000338}}
 #body #menu, #body #content {
   display: inline-block;
   float: left;
@@ -351,7 +363,7 @@ a, a:hover, a:visited, a:link, a:active {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/_content\.scss}line{font-family:\0000356}}
 #body .standard-layout .area-details, #body .network-layout .area-details {
-  margin-top: 10px;
+  margin: 10px 0;
   background-color: white;
   float: left;
   width: 100%;
@@ -419,7 +431,7 @@ a, a:hover, a:visited, a:link, a:active {
   height: 250px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dpodyach\/Development\/xke\/AxaCSP\/app\/scss\/app\.scss}line{font-family:\0000348}}
 .cleaner {
   clear: both;
   height: 1px;
