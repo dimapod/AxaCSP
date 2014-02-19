@@ -2,6 +2,7 @@
 
 angular.module('axa.csp', [
         'ui.router',
+        'ui.bootstrap',
         'ngAnimate',
         'restangular',
         'highcharts-ng',
