@@ -11,7 +11,10 @@ angular.module('axa.csp', [
         'httpRequestTracker'
     ])
 
-    .config(function ($stateProvider, $urlRouterProvider, RestangularProvider, $httpProvider) {
+    .config(function ($stateProvider, $urlRouterProvider, RestangularProvider, $httpProvider, $uiViewScrollProvider) {
+        // Disable auto scroll. See // see http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.directive:ui-view
+        $uiViewScrollProvider.useAnchorScroll();
+
         RestangularProvider.setBaseUrl('rest/v1.0');
 
         $httpProvider.interceptors.push('authInterceptor');
